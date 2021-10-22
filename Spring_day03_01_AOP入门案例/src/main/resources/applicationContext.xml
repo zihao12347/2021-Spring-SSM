@@ -13,18 +13,41 @@
 
     <!--3.开启AOP命名空间-->
     <bean id="userService" class="com.itheima.service.impl.UserServiceImpl"/>
-    <!--2.配置共性功能成功spring控制的资源-->
-    <bean id="myAdvice" class="com.itheima.aop.AOPAdvice"/>
 
-    <!--4.配置AOP-->
+    <!--配置通知类-->
+    <bean  class="com.itheima.service.aop.AOPAdvice" id="aopAdvice"></bean>
+
+    <!--aop的配置-->
     <aop:config>
-        <!--5.配置切入点-->
-        <aop:pointcut id="pt" expression="execution(* *..*(..))"/>
-        <!--6.配置切面（切入点与通知的关系）-->
-        <aop:aspect ref="myAdvice">
-            <!--7.配置具体的切入点对应通知中那个操作方法-->
-            <aop:before method="function" pointcut-ref="pt"/>
+        <!--配置切入点：指定对哪些类的哪些方法进行增强。-->
+        <aop:pointcut id="pt" expression="execution(public void com.itheima.service.impl.UserServiceImpl.save(..))"></aop:pointcut>
+        <aop:pointcut id="pt2" expression="execution(public int com.itheima.service.impl.UserServiceImpl.update())"></aop:pointcut>
+        <aop:pointcut id="pt3" expression="execution(public void com.itheima.service.impl.UserServiceImpl.delete())"></aop:pointcut>
+        <!--配置切面：切入点与通知的对于关系-->
+        <aop:aspect ref="aopAdvice">
+            <!--配置前置通知：原始方法执行之前执行-->
+            <aop:before method="before" pointcut-ref="pt"></aop:before>
+            <!--配置后置通知：原始方法执行之后执行，无论是否异常都执行-->
+            <aop:after method="after" pointcut-ref="pt"></aop:after>
+            <!--配置异常通知：原始方法出现异常执行，-->
+            <aop:after-throwing method="throwing" pointcut-ref="pt"></aop:after-throwing>
+            <!--返回后通知：原始方法执行正常执行之后执行-->
+            <aop:after-returning method="afterReturn" pointcut-ref="pt"></aop:after-returning>
+            <!--环绕通知：在代码中手动的控制增强方法执行的时间-->
+            <aop:around method="around" pointcut-ref="pt"></aop:around>
         </aop:aspect>
+
+        <aop:aspect ref="aopAdvice">
+            <aop:after-returning method="afterReturnTwo" pointcut-ref="pt2" returning="ret"></aop:after-returning>
+            <aop:around method="aroundTwo" pointcut-ref="pt2"></aop:around>
+        </aop:aspect>
+
+        <aop:aspect ref="aopAdvice">
+            <aop:after-throwing method="ThrowingTwo" pointcut-ref="pt3" throwing="t"></aop:after-throwing>
+            <aop:around method="AroundThree" pointcut-ref="pt3"></aop:around>
+        </aop:aspect>
+
     </aop:config>
+
 
 </beans>
