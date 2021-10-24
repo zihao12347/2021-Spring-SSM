@@ -35,58 +35,27 @@
         <property name="accountDao" ref="accountDao"/>
     </bean>
 
-    <!--                  AOP格式                  -->
-    <!--                  AOP格式                  -->
-    <!--                  AOP格式                  -->
 
-    <!--<bean id="txAdvice" class="com.itheima.aop.TxAdvice">-->
-    <!--<property name="dataSource" ref="dataSource"/>-->
-    <!--</bean>-->
-
-    <!--<aop:config>-->
-    <!--<aop:pointcut id="pt" expression="execution(* *..transfer(..))"/>-->
-    <!--<aop:aspect ref="txAdvice">-->
-    <!--<aop:around method="tx" pointcut-ref="pt"/>-->
-    <!--</aop:aspect>-->
-    <!--</aop:config>-->
-
-    <!--                  TX格式                  -->
-    <!--                  TX格式                  -->
-    <!--                  TX格式                  -->
-
-    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource"/>
+    <!--                    tx格式                    -->
+    <!--1.配置事务管理器-->
+    <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" id="transactionManager">
+        <!--给事务管理器注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
     </bean>
-
-    <!--定义事务管理的通知类-->
-    <tx:advice id="txAdvice" transaction-manager="txManager">
-        <!--定义控制的事务-->
+    <!--2.配置配置事务的通知-->
+    <tx:advice transaction-manager="transactionManager" id="myTxTansactionAdvice">
         <tx:attributes>
-            <tx:method name="*" read-only="false"/>
-            <tx:method name="get*" read-only="true"/>
-            <tx:method name="find*" read-only="true"/>
-            <tx:method name="a" read-only="false" propagation="REQUIRED"/>
-            <tx:method name="b" read-only="false" propagation="NEVER"/>
 
-            <tx:method
-                name="transfer"
-                read-only="false"
-                timeout="-1"
-                isolation="DEFAULT"
-                no-rollback-for=""
-                rollback-for=""
-                propagation="REQUIRED"
-                />
-            <!--<tx:method name="transfer" read-only="false"/>-->
+            <!--<tx:method name="transfer"></tx:method>-->
+            <!--对所有方法进行事务管理-->
+            <tx:method name="*" read-only="false"/>
         </tx:attributes>
     </tx:advice>
-
+    <!--3.配置aop-->
     <aop:config>
-        <aop:pointcut id="pt" expression="execution(* com.itheima.service.*Service.*(..))"/>
-        <aop:pointcut id="pt2" expression="execution(* com.itheima.dao.*.b(..))"/>
-        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt"/>
-        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt2"/>
+        <!--定义切入点-->
+        <aop:pointcut id="pt" expression="execution(public void com.itheima.service.impl.AccountServiceImpl.transfer(..))"/>
+        <!--advisor标签:用于配置事务通知和切入点的对于关系-->
+        <aop:advisor advice-ref="myTxTansactionAdvice" pointcut-ref="pt"></aop:advisor>
     </aop:config>
-
-
 </beans>

@@ -25,8 +25,6 @@ public class AccountServiceImpl implements AccountService {
         accountDao.outMoney(inName,money);
     }
 
-    public void a() {
-        accountDao.b();
-    }
+
 
 }
