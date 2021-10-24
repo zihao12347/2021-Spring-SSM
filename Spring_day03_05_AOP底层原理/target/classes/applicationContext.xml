@@ -13,8 +13,6 @@
 
     <aop:aspectj-autoproxy proxy-target-class="false"/>
 
-    <!--proxy-target-class属性:指定是否代理类-也就是是否采用CGLIB动态代理
-    -->
     <aop:config proxy-target-class="true">
     </aop:config>
 

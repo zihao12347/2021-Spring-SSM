@@ -14,6 +14,8 @@ import java.lang.reflect.Method;
 public class CglibDynamicProxy {
     /**
      * 创建代理方法,返回CGLIB代理对象
+     *      Enhancer类:字节码增强器,用来对目标进行增强,
+     *
      * @param target 目标类
      * @return
      */
@@ -26,7 +28,7 @@ public class CglibDynamicProxy {
             /**
              * 代理的逻辑方法
              * @param o 生成的代理对象
-             * @param method    拦截的方法
+             * @param method    拦截的原始方法
              * @param objects   拦截方法的参数
              * @param methodProxy   方法的代理对象,用于执行父类方法
              * @return
@@ -35,7 +37,7 @@ public class CglibDynamicProxy {
             public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
                 Aspect aspect = new Aspect();
                 aspect.before();//前置通知
-                Object invoke = methodProxy.invoke(target, objects);//执行目标类的原始方法
+                Object invoke = methodProxy.invokeSuper(target, objects);//执行目标类的原始方法
                 aspect.after();//后置通知
                 return invoke;
             }
