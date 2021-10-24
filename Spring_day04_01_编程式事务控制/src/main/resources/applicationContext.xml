@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--mybatis配置-->
+    <!--加载外部配置文件-->
+    <context:property-placeholder location="classpath:*.properties"/>
+    <!--数据源-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--mybatis中sqlSessionFactoryBean工厂-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="typeAliasesPackage" value="com.itheima.domain"/>
+    </bean>
+    <!--扫描mapper映射文件-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.itheima.dao"/>
+    </bean>
+
+    <!--spring配置-->
+    <!--service组件-->
+    <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"/>
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--###############################################################################-->
+    <!--配置aop通知类-->
+    <bean class="com.itheima.aop.TxAdvice" id="txAdvice">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!--配置aop-->
+    <aop:config>
+        <!--定切入点:定义对哪里方法进行拦截增强-->
+        <aop:pointcut id="pt" expression="execution(public void com.itheima.service.impl.AccountServiceImpl.transferTwo(..))"></aop:pointcut>
+        <!--定义切面:描述切入点和通知的对于关系-->
+        <aop:aspect ref="txAdvice">
+            <aop:around method="transactionManagement" pointcut-ref="pt"></aop:around>
+        </aop:aspect>
+    </aop:config>
+
+</beans>
