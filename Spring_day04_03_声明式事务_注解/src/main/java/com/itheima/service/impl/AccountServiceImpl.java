@@ -15,8 +15,7 @@ import org.springframework.transaction.support.DefaultTransactionDefinition;
 import javax.sql.DataSource;
 import java.io.IOException;
 import java.util.List;
-//对当前类的所有方法添加事务，通常配置在接口上
-//@Transactional
+
 public class AccountServiceImpl implements AccountService {
 
     private AccountDao accountDao;
@@ -24,6 +23,12 @@ public class AccountServiceImpl implements AccountService {
         this.accountDao = accountDao;
     }
 
+    @Transactional(
+            timeout = -1,
+            isolation = Isolation.DEFAULT,
+            readOnly = false,
+            rollbackFor ={java.lang.ArithmeticException.class, IOException.class}
+    )
     public void transfer(String outName, String inName, Double money) {
         accountDao.inMoney(outName,money);
         int i = 1/0;

@@ -53,7 +53,8 @@
     </tx:advice>
     <!--3.配置aop-->
     <aop:config>
-        <aop:pointcut id="pt" expression="execution(* *..transfer(..))"/>
+        <!--定义切入点-->
+        <aop:pointcut id="pt" expression="execution(public void com.itheima.service.impl.AccountServiceImpl.transfer(..))"/>
         <!--advisor标签:用于配置事务通知和切入点的对于关系-->
         <aop:advisor advice-ref="myTxTansactionAdvice" pointcut-ref="pt"></aop:advisor>
     </aop:config>
