@@ -22,7 +22,7 @@ public class UserServiceTest {
 
     @Test
     public void testTransfer(){
-        accountService.transfer("Jock1","Jock2",100D);
+        accountService.transfer("Mike","Jack",100D);
     }
 
 }
