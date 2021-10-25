@@ -2,6 +2,7 @@ package com.itheima.service;
 
 import com.itheima.config.SpringConfig;
 import com.itheima.domain.Account;
+import com.itheima.service.impl.AccountServiceImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,19 +14,22 @@ import redis.clients.jedis.Jedis;
 import java.util.List;
 
 import static org.junit.Assert.*;
-//设定spring专用的类加载器
+
 @RunWith(SpringJUnit4ClassRunner.class)
 //设定加载的spring上下文对应的配置
 @ContextConfiguration(classes = SpringConfig.class)
 public class AccountServiceTest {
     @Autowired
-    private AccountService accountService;
-
+    private AccountServiceImpl accountService;
+    /**
+     * 测试Jedis操作redis数据库
+     */
     @Test
     public void test(){
-        Jedis jedis = new Jedis("192.168.40.130",6378);
-        jedis.set("name","itheima");
-        jedis.close();
+        Jedis jedis = new Jedis("172.245.34.184", 6379);
+        jedis.set("name", "梓浩");
+
+        System.out.println(jedis.get("name"));
     }
 
     @Test
@@ -38,7 +42,8 @@ public class AccountServiceTest {
 
     @Test
     public void changeMoney() {
-        accountService.changeMoney(1,200D);
+        accountService.changeMoney(1, 1000d);
+
     }
 
     @Test

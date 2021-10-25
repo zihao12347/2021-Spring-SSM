@@ -13,18 +13,17 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
-@PropertySource("redis.properties")
+/**
+ * Redis的配置
+ */
+@PropertySource("redis.properties")//引入外部配置文件，
 public class RedisConfig {
-
-    @Value("${redis.host}")
+    @Value("${redis.host}")//@Value获取配置文件的key值
     private String hostName;
-
     @Value("${redis.port}")
     private Integer port;
-
-//    @Value("${redis.password}")
-//    private String password;
-
+    @Value("${redis.password}")
+    private String password;
     @Value("${redis.maxActive}")
     private Integer maxActive;
     @Value("${redis.minIdle}")
@@ -37,7 +36,7 @@ public class RedisConfig {
 
 
     @Bean
-    //配置RedisTemplate
+    //配置RedisTemplate模板对象
     public RedisTemplate createRedisTemplate(RedisConnectionFactory redisConnectionFactory){
         //1.创建对象
         RedisTemplate redisTemplate = new RedisTemplate();

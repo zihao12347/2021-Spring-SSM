@@ -9,42 +9,22 @@ import org.springframework.stereotype.Service;
 @Service("accountService")
 public class AccountServiceImpl implements AccountService {
 
+    //注入redis模板对象
     @Autowired
     private RedisTemplate redisTemplate;
 
     public void save(Account account) {
+
     }
 
+    //设置string值
     public void changeMoney(Integer id, Double money) {
-        //等同于redis中set account:id:1 100
-        redisTemplate.opsForValue().set("account:id:"+id,money);
+        redisTemplate.opsForValue().set("account:id"+id,money);
     }
-
+    //获取String值
     public Double findMondyById(Integer id) {
-        //等同于redis中get account:id:1
-        Object money = redisTemplate.opsForValue().get("account:id:" + id);
-        return new Double(money.toString());
+        Object o = redisTemplate.opsForValue().get("account:id"+id);
+        Double ao = new Double(o.toString());
+        return ao;
     }
 }
-//        redisTemplate.type()
-//        redisTemplate.persist()
-//        redisTemplate.move()
-//        redisTemplate.hasKey()
-//        redisTemplate.getExpire()
-//        redisTemplate.expire()
-//        redisTemplate.delete()
-//        redisTemplate.rename();
-//
-//        redisTemplate.opsForValue().;
-//        redisTemplate.opsForHash().;
-//        redisTemplate.opsForList().;
-//        redisTemplate.opsForSet().;
-//        redisTemplate.opsForZSet();
-//
-//
-//        redisTemplate.boundValueOps().;
-//
-//        redisTemplate.slaveOf();
-//        redisTemplate.slaveOfNoOne();
-//
-//        redisTemplate.opsForCluster()
