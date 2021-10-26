@@ -14,6 +14,9 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
+/**
+ * 自定义Bean组件导入器，实现ImportSelector接口，实现导入*标识的多个bean组件
+ */
 public class CustomerImportSelector implements ImportSelector {
 
     private String expression;
@@ -21,7 +24,7 @@ public class CustomerImportSelector implements ImportSelector {
     public CustomerImportSelector(){
         try {
             //初始化时指定加载的properties文件名
-            Properties loadAllProperties = PropertiesLoaderUtils.loadAllProperties("import.properties");
+            Properties loadAllProperties = PropertiesLoaderUtils.loadAllProperties("importselector.properties");
             //设定加载的属性名
             expression = loadAllProperties.getProperty("path");
         } catch (IOException e) {

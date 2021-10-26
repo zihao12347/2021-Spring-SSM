@@ -16,21 +16,9 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
 
-    @Autowired
-    private BookDao bookDao;
-
-    @Autowired
-    private AccountDao accountDao;
-
-    @Autowired
-    private EquipmentDao equipmentDao;
-
-
     public void save() {
         System.out.println("user service running...");
         userDao.save();
-        bookDao.save();
-        accountDao.save();
-        equipmentDao.save();
+
     }
 }

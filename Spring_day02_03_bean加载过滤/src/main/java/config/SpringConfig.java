@@ -1,40 +1,33 @@
 package config;
 
+import config.postprocessor.MyBeanPostProcessor;
+import config.selector.CustomerImportSelector;
+import config.selector.MyImportSelector;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 @Configuration
-@ComponentScan("com.itheima")
-//1.设置排除bean，排除的规则是注解修饰的（FilterType.ANNOTATION）的bean，具体的注解为（Service.class）
-/*
-@ComponentScan(
-    value = "com.itheima",
-    excludeFilters = @ComponentScan.Filter(
-        type= FilterType.ANNOTATION,
-        classes = Service.class
-        )
-    )
-*/
-
-//2.设置排除bean，排除的规则是自定义规则（FilterType.CUSTOM），具体的规则定义为（MyTypeFilter.class）
-/*
-@ComponentScan(
-        value = "com.itheima",
+@Import({MyImportSelector.class,CustomerImportSelector.class,MyBeanPostProcessor.class})//导入自定义组件导入器，
+@ComponentScan(value = "com.itheima")
+//按照自定的filter组件扫描过滤器实现，排除加载指定的bean
+/*@ComponentScan(basePackages = "com.itheima",
         excludeFilters = @ComponentScan.Filter(
-                type= FilterType.CUSTOM,
-                classes = MyTypeFilter.class
+                type = FilterType.CUSTOM,       //使用自定义的组件扫描过滤器
+                classes = MyTypeFilter.class    //指定组件扫描过滤器类的class对象
         )
-)
-*/
 
-//3.自定义导入器
-//@Import(MyImportSelector.class)
+)*/
+/* //按照注解类型排除扫描指定的bean
+@ComponentScan(
+        value = "com.itheima",  //设置需要扫描的包路径
+        excludeFilters =  @ComponentScan.Filter(    //排除过滤，排除指定的bean组件
+            type = FilterType.ANNOTATION,   //排除类型：按照注解类型排除
+                classes = Service.class     //设置具体的过滤项
+        )
 
-//4.自定义注册器
-//@Import(MyImportBeanDefinitionRegistrar.class)
+)*/
 
-//5.自定义工厂后处理bean，bean定义前处理后处理bean
-//@Import({CustomeImportBeanDefinitionRegistrar.class,MyBeanFactory.class, MyBean.class})
 
 public class SpringConfig {
 }
