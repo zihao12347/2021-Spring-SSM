@@ -20,7 +20,7 @@ public class ContextLoadListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         //加载配置文件，初始化spring容器
         //ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
-        //getServletContext()方法获取域对象
+        //获取ServletContext域对象
         ServletContext servletContext = servletContextEvent.getServletContext();
         String contextConfigLocation = servletContext.getInitParameter("contextConfigLocation");
         //获取全局初始化参数-配置了配置名称
