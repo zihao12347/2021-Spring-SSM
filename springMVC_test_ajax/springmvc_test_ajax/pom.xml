@@ -38,6 +38,7 @@
             <artifactId>spring-context</artifactId>
             <version>5.1.9.RELEASE</version>
         </dependency>
+        <!--spring整合web的坐标-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
@@ -51,7 +52,7 @@
             <version>5.1.9.RELEASE</version>
         </dependency>
 
-        <!--json相关坐标3个-->
+        <!--json相关坐标3个：处理异步请求的json请求数据-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
