@@ -4,6 +4,8 @@ import com.itheima.pojo.User;
 import com.itheima.service.UserService;
 import com.itheima.web.UserServlet;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -34,10 +36,13 @@ import javax.servlet.http.HttpSession;
  *              2.在spring-mvc.xml文件中配置自定义转换器:ConvertServiceFactoryBean
  *              3.在<mvc:annotation-driven>开启springmvc注解支持的标签中；中指定conversion-service属性的值
  *
- *       使用原生的ServletAPI作为控制器方法的参数，
+ *       4.使用原生的ServletAPI作为控制器方法的参数，
  *              1.HttpServletRequest
  *              2.HttpServletResponse
  *              3.HttpSession
+ *       5.Model作用方法的参数：可以用于存储数据，存储的数据底层保存在request域对象中
+ *              addAttribute()方法，
+ *
  *
  *
  */
@@ -96,6 +101,18 @@ public class UserController  {
         return "/success.jsp";
     }
 
+
+    /**
+     * 测试Model作方方法参数，可以用来存储数据，将数据保存在request域对象中
+     * @param model
+     * @return
+     */
+    @RequestMapping("/testModel")
+    public String testModel(Model model){
+        model.addAttribute("name", "梓浩");//存储数据，将数据存储在request域中
+        System.out.println(model);
+        return "/success.jsp";
+    }
 
 
 }
