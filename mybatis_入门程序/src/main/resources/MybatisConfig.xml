@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--Mybatis的配置文件-->
+<configuration>
+    <!--properties标签：引用指定的properties配置文件-->
+    <properties resource="jdbc.properties"></properties>
+
+    <!--typeAliases标签：给实体类起别名,别名不区分大小写-->
+    <typeAliases>
+        <!--typeAlias标签：给单个实体类起别名-->
+        <!--<typeAlias type="com.itheima.domain.Student" alias="student"></typeAlias>-->
+        <!--package标签：给指定包下的实体起别名-->
+        <package name="com.itheima.domain"/>
+    </typeAliases>
+
+    <!--配置mybatis环境：default属性：指定默认使用哪个环境-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <!--使用JDBC默认的事务管理-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--数据源：POOLED代表使用连接池的数据源
+                    POOLED连接池：用于存储数据连接的容器，它是一个集合(ArrayList)，必须保证线程的安全，
+                           该集合必须实现队列的特性，先进先出。
+                    UNPOOLED:不使用连接池的数据源，采用传统的获取连接方式，没有池的概念,每次创建新的连接。
+                    JNDI：使用服务器提供的JNDI技术实现，获取Datasource,不同的web服务器，采用不同的datasource
+                            tomcat服务器采用的是dbcp连接池。
+            -->
+            <dataSource type="POOLED">
+                <!--连接数据库的基本配置-->
+                <property name="driver" value="${jdbc.driver}"></property>
+                <property name="url" value="${jdbc.url}"></property>
+                <property name="username" value="${jdbc.username}"></property>
+                <property name="password" value="${jdbc.password}"></property>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--配置引入mapper映射文件:基于xml配置文件-->
+    <mappers>
+        <!--mapper标签：指定mapper映射文件-->
+        <!--<mapper resource="com/itheima/dao/StudentMapper.xml"></mapper>-->
+        <!--package标签：指定dao所在的包，注意：dao接口和mapper映射文件必须相同-->
+        <package name="com.itheima.dao"/>
+    </mappers>
+
+</configuration>
+

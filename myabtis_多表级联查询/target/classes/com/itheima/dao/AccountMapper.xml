@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mybatis的(DTD)文档类型约束，进行相关标签的提示和约束-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.AccountMapper">
+    <select id="findAll" resultType="account">
+        select * from account
+    </select>
+    <!--配置实体类属性与表中字段的对应关系-->
+    <resultMap id="AccountAndUser" type="account">
+        <!--配置主键字段-->
+        <id column="id" property="id"></id>
+        <!--配置非主键字段-->
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+        <!--association标签：用于一对一/多对一的映射关系，配置被包含对象的映射关系
+                property属性:指定属性名称：该属性为实体类
+                javaType属性：指定引用实体类的类型
+                -->
+        <association property="user" javaType="user">
+            <id column="id" property="id"/>
+            <result property="birthday" column="birthday"/>
+            <result property="sex" column="sex"/>
+            <result property="address" column="address"/>
+        </association>
+    </resultMap>
+    <!--查询账户信息并且包含账户对应的用户信息：多对一/一对一查询
+    -->
+    <select id="FindAccountAndUser" resultMap="AccountAndUser">
+        select a.*,u.username,u.birthday,u.sex,u.address from account a ,user u where a.uid=u.id
+    </select>
+</mapper>

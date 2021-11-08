@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.UserDao">
+    <select id="getAll" resultType="user">
+        select * from user
+    </select>
+    <select id="get" parameterType="int" resultType="user">
+        select * from user where uuid=#{uuid}
+    </select>
+    <select id="getByUsernameAndPassword" resultType="user">
+        select * from user where userName =#{userName} and password =#{password};
+    </select>
+    <insert id="save" parameterType="user">
+        insert into user (userName,password,realName,gender,birthday) values(#{userName},#{password},#{realName},#{gender},#{birthday})
+    </insert>
+    <delete id="delete" parameterType="int">
+        delete  from user where uuid=#{uuid}
+    </delete>
+    <update id="update" parameterType="user">
+        update user set userName=#{userName},password =#{password},realName=#{realName},gender=#{gender},birthday=#{birthday} where uuid=#{uuid}
+    </update>
+
+</mapper>

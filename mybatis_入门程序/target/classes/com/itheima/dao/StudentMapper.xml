@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mybatis的(DTD)文档类型约束，进行相关标签的提示和约束-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper:核心根标签，配置映射文件
+        namespace属性：名称空间，指定持久化dao接口的位置
+-->
+<!--配置映射文件-->
+<mapper namespace="com.itheima.dao.StudentMapper">
+    <!--
+            id属性：唯一标识，指定dao接口的方法名
+            resultType属性：sql语句执行的结果，封装到指定的实体类中，结果集类型
+            parameterType属性：传入到sql语句的，参数类型
+            #{}占位符：相当于jdbc中sql的 ? ,执行sql语句时，替换真实的数据，自动进行java类型和jdbc类型的数据转换，并能够防止sql注入。
+            ${value}拼接sql串，将传入的参数内容，直接拼接到sql中，并不进行数据转换。
+    -->
+    <!--selectKey标签：配置获取新增数据自增长的id
+            keyProperty:实体类的属性名
+            keyColumn:表的字段名
+            order：值为before/after 获取新增前/后的id
+    -->
+    <!--resultMap标签：用于建立实体类属性和表中字段的对应关系,可以解决实体属性和表中字段不匹配的问题
+          type属性：实体类，id属性:唯一标识
+
+                *id标签：指定主键字段。
+                *result标签：指定非主键字段
+                    property属性：指定实体类属性名
+                    column属性：指定表中字段名
+         使用resultMap建立的对应关系，在查询标签中使用resultMap属性
+    -->
+    <resultMap id="students" type="students">
+        <id property="sid" column="id"></id>
+        <result property="sname" column="name"></result>
+        <result property="sage" column="age"></result>
+    </resultMap>
+    
+    <insert id="save" parameterType="student">
+        <selectKey resultType="int" order="AFTER" keyProperty="id" keyColumn="id">
+            select last_insert_id()
+        </selectKey>
+        insert into student (name,age)values(#{name},#{age})
+    </insert>
+
+    <select id="findByName" resultType="student" parameterType="string">
+        <!--select * from student where name like #{name}-->
+        select * from student where name like '%${value}%'
+    </select>
+
+    <select id="findByAs" resultType="student" parameterType="int">
+         select id as sid, name as sname,age as sage from student where id=#{id}
+    </select>
+
+    <select id="findByResultMap" resultMap="students" resultType="int">
+        select * from student where id=#{id}
+    </select>
+
+    <select id="findByQueryVo" parameterType="queryVo" resultType="student">
+        select * from student where id=#{student.id}
+    </select>
+
+    <select id="selectAll" resultType="student">
+        select * from student
+    </select>
+
+    <select id="selectById" parameterType="java.lang.Integer" resultType="student">
+        select * from student where id=#{id}
+    </select>
+
+    <update id="update" parameterType="student">
+        update student set name=#{name},age=#{age} where id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="int">
+        delete from student where id=#{id}
+    </delete>
+</mapper>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mybatis的(DTD)文档类型约束，进行相关标签的提示和约束-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.UserMapper">
+    <!--resultMap标签：建立实体类属性与表中字段的对应关系-->
+    <resultMap id="userAndAccount" type="user">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="birthday" property="birthday"/>
+        <result column="sex" property="sex"/>
+        <result column="address" property="address"/>
+        <!--collection标签：用于一对多/多对多的映射关系
+            property属性：指定引用属性名称，该属性为实体类
+            ofType属性：指定引入的实体类类型
+        -->
+        <collection property="accounts" ofType="account">
+            <id property="id" column="id"/>
+            <result property="money" column="money"/>
+        </collection>
+    </resultMap>
+    <select id="findAll" resultType="user">
+        select * from user
+    </select>
+
+    <select id="findById" resultType="user" parameterType="int">
+        select * from user where id=${id}
+    </select>
+
+    <select id="findUserAndAccount" resultMap="userAndAccount">
+        select u.*,a.id,a.money  from user u , account a  where u.id=a.uid
+    </select>
+
+
+
+</mapper>

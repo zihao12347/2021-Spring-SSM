@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mybatis的(DTD)文档类型约束，进行相关标签的提示和约束-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.RoleMapper">
+    <resultMap id="roleResultMap" type="role">
+        <id column="id" property="id"/>
+        <result column="ROLE_NAME" property="roleName"/>
+        <result column="ROLE_DESC" property="RoleDesc"/>
+        <!--collection标签：用于多对多/一对多的映射关系
+                properties属性：标识引用的属性，该属性为实体类
+                ofType属性：指定引用的实体类类型
+        -->
+        <collection property="users" ofType="user">
+            <id property="id" column="id"/>
+            <result property="username" column="username"/>
+            <result property="birthday" column="birthday"/>
+            <result property="sex" column="sex"/>
+            <result property="address" column="address"/>
+        </collection>
+    </resultMap>
+    <select id="findAll" resultMap="roleResultMap">
+        select * from role
+    </select>
+    <select id="findRoleAndUser" resultMap="roleResultMap">
+        select * from user u,role r ,user_role ur where u.id=ur.uid and r.id = ur.rid
+    </select>
+</mapper>

@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  *
  *          2)通过注解配置
  *              1.@Transaction注解：作用于接口（主流），类，方法上，对public方法进行事务管理
- *              2.配置事务管理器组件
+ *              2.配置事务管理器组件DatasourceTransactionManager
  *              3.开启事务注解支持<tx-annotation driven transaction-manager=""></tx-annotation>
  *
  *

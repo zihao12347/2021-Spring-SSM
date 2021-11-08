@@ -1,0 +1,136 @@
+PUT http://localhost:8080/springMVC_SSM_war_exploded/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "uuid"=1,  "username":"Jack",    "password":"root" ,"realName":"Zi Hao" ,"gender":1 ,"birthday":2020/10/21}
+
+<> 2021-11-04T091610.200.json
+
+###
+
+
+
+POST http://localhost:8080/springMVC_SSM_war_exploded/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "userName":"Jack",    "password":"root" ,"realName":"Zi Hao" ,"gender":1 ,"birthday":2020/10/21}
+
+<> 2021-11-04T091210.200.json
+
+###
+
+
+PUT http://localhost:8080/springMVC_SSM_war_exploded/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "uuid"=1,  "username":"Jack",    "password":"root" ,"realName":"Zi Hao" ,"gender":1 ,"birthday":2020/10/21}
+
+<> 2021-11-04T091029.200.json
+
+###
+
+POST http://localhost:8080/springMVC_SSM_war_exploded/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "username":"Jack",    "password":"root" ,"realName":"Zi Hao" ,"gender":1 ,"birthday":2020/10/21}
+
+<> 2021-11-04T090943.500.html
+
+###
+
+POST http://localhost:8080/springMVC_SSM_war_exploded/user/login?userName=Jockme&password=root
+
+GET http://localhost:8080/springMVC_SSM_war_exploded/user/1/5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-04T090754.200.json
+
+###
+
+GET http://localhost:8080/springMVC_SSM_war_exploded/user/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-04T090718.200.json
+
+###
+
+GET http://localhost:8080/springMVC_SSM_war_exploded/user/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-04T090713.200.json
+
+###
+
+POST http://localhost:8080/springMVC_SSM_war_exploded/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "username":"Jack",    "password":"root" ,"realName":"Zi Hao" ,"gender":1 ,"birthday":2020/10/21}
+
+<> 2021-11-04T085945.200.json
+
+###
+
+PUT http://localhost:8080/springMVC_SSM_war_exploded/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "uuid"=1,  "username":"Jack",    "password":"root" ,"realName":"Zi Hao" ,"gender":1 ,"birthday":2020/10/21}
+
+<> 2021-11-04T085920.200.json
+
+###
+
+POST http://localhost:8080/springMVC_SSM_war_exploded/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{    "username":"Jack",    "password":"root" ,"realName":"Zi Hao" ,"gender":1 ,"birthday":2020/10/21}
+
+<> 2021-11-04T085219.200.json
+
+###
+
+
+
+
+POST http://localhost:8080/springMVC_SSM_war_exploded/user/login?userName=Jockme&password=root
+
+
+GET http://localhost:8080/springMVC_SSM_war_exploded/user/1/5
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+
+DELETE http://localhost:8080/springMVC_SSM_war_exploded/user/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-11-04T082436.200.json
+
+###
+
+####
+
+GET http://localhost:8080/springMVC_SSM_war_exploded/user/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+

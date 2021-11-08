@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f37e7db0-a612-468d-9d92-ad7cc0d7aa4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myabtis_多表级联查询.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/dao/AccountMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/dao/RoleMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/dao/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/domain/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/MybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/com/itheima/dao/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/test/java/com/itheima/dao/StudentDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/test/java/com/itheima/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/mybatis_注解开发.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/controller/constant/ConstantMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/controller/interceptor/ProjectAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/controller/results/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/service/UserServivce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/resources/com/itheima/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/resources/spring_mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/test/java/com/itheima/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/test/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/test/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/springMVC_SSM整合_注解实现.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/JDBCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/ServletContainerInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/controller/constant/ConstantMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/controller/interceptor/ProjectAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/controller/results/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/service/UserServivce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/config/JDBCConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/dao/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/dao/impl/BookDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/config/JDBCConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/config/MybatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/EquipmentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/AccountDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/BookDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/EquipmentDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/EquipmentDaoImplFactoryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/filter/MyTypeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/postprocessor/MyBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/registrar/CustomeImportBeanDefinitionRegistrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/registrar/MyImportBeanDefinitionRegistrar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/registrar/MyImportBeanDefinitionRegistrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/selector/CustomerImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/selector/MyImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/aop/AOPAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/aop/AOPAdviceTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/aop/TxAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/target/classes/com/itheima/config/JDBCConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/target/classes/com/itheima/config/MyBatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_SSM整合/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_SSM整合/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/controller/ReqAnnotationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/controller/RespController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/convert/StringToDateConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/listener/ContextLoadListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/listener/WebApplicationContextUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/pojo/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/web/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_异常处理器/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_异常处理器/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_异步调用/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_异步调用/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_拦截器/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_拦截器/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_拦截器/target/classes/com/itheima/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_拦截器/target/classes/com/itheima/controller/InterceptorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_拦截器/target/classes/com/itheima/interceptor/MyInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_注解驱动/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_注解驱动/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/MybatisConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/dao/AccountMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itheima/dao/AccountMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itheima/dao/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/dao/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/itheima/dao/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/itheima/dao/RoleMapper.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itheima/dao/RoleMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/itheima/dao/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/itheima/dao/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/dao/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/App.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven" />
+        <option name="userSettingsFile" value="D:\develop\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myabtis_multiTableSelect" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="50" />
+    <option name="width" value="1390" />
+    <option name="height" value="790" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myabtis_多表级联查询" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myabtis_多表级联查询" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636358999835" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\Spring-SSM\myabtis_多表级联查询\src\main\resources\com\itheima\dao" />
+      <recent name="D:\develop\Spring-SSM\myabtis_多表级联查询\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RoleMapperTest.testFindRoleAndUser">
+    <configuration name="AccountMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myabtis_多表级联查询" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.dao.AccountMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountMapperTest.testFindAccountAndUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myabtis_多表级联查询" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.dao.AccountMapperTest" />
+      <option name="METHOD_NAME" value="testFindAccountAndUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleMapperTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myabtis_多表级联查询" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.dao.RoleMapperTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleMapperTest.testFindRoleAndUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myabtis_多表级联查询" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.dao.RoleMapperTest" />
+      <option name="METHOD_NAME" value="testFindRoleAndUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testFindUserAndAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myabtis_多表级联查询" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testFindUserAndAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoleMapperTest.testFindRoleAndUser" />
+        <item itemvalue="JUnit.RoleMapperTest.testFindAll" />
+        <item itemvalue="JUnit.UserMapperTest.testFindUserAndAccount" />
+        <item itemvalue="JUnit.AccountMapperTest.testFindAccountAndUser" />
+        <item itemvalue="JUnit.AccountMapperTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f37e7db0-a612-468d-9d92-ad7cc0d7aa4a" name="Default Changelist" comment="" />
+      <created>1636287766803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636287766803</updated>
+      <workItem from="1636287768528" duration="10207000" />
+      <workItem from="1636355308878" duration="3662000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserMapperTest_testFindUserAndAccount - 2021.11.08 at 14h 50m 12s.xml">
+      <configuration name="UserMapperTest.testFindUserAndAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_testFindUserAndAccount - 2021.11.08 at 14h 51m 06s.xml">
+      <configuration name="UserMapperTest.testFindUserAndAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleMapperTest_testFindAll - 2021.11.08 at 15h 25m 45s.xml">
+      <configuration name="RoleMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleMapperTest_testFindAll - 2021.11.08 at 15h 26m 22s.xml">
+      <configuration name="RoleMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleMapperTest_testFindAll - 2021.11.08 at 15h 28m 09s.xml">
+      <configuration name="RoleMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleMapperTest_testFindAll - 2021.11.08 at 15h 28m 41s.xml">
+      <configuration name="RoleMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleMapperTest_testFindAll - 2021.11.08 at 15h 29m 26s.xml">
+      <configuration name="RoleMapperTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleMapperTest_testFindRoleAndUser - 2021.11.08 at 15h 43m 22s.xml">
+      <configuration name="RoleMapperTest.testFindRoleAndUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleMapperTest_testFindRoleAndUser - 2021.11.08 at 15h 46m 49s.xml">
+      <configuration name="RoleMapperTest.testFindRoleAndUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleMapperTest_testFindRoleAndUser - 2021.11.08 at 15h 47m 54s.xml">
+      <configuration name="RoleMapperTest.testFindRoleAndUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13869000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.50680274" side_tool="true" weight="0.2813765" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="6" sideWeight="0.50152904" side_tool="true" weight="0.33535764" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4931973" visible="true" weight="0.34075573" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.2584098" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026991" side_tool="true" weight="0.62538224" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Run Dashboard" order="4" sideWeight="0.49730095" weight="0.50764525" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.7706422" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32874617" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32874617" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.558104" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.5764526" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="MyBatis Log" order="16" />
+      <window_info anchor="right" id="RestServices" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.29554656" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299595" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24928977" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299595" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.50680274" side_tool="true" weight="0.2813765" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="6" sideWeight="0.50152904" side_tool="true" weight="0.33535764" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4931973" visible="true" weight="0.33468285" />
+      <window_info anchor="bottom" id="MyBatis Log" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.2584098" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5026991" side_tool="true" weight="0.62538224" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Run Dashboard" order="5" sideWeight="0.49730095" weight="0.50764525" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.7706422" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32874617" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32874617" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.558104" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.5764526" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
+      <window_info anchor="right" id="RestServices" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.29554656" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299595" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24928977" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3299595" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/dao/AccountMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/dao/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/itheima/dao/RoleMapper.xml.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/itheima/dao/RoleMapper.properites">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/asdb.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/itheima/dao/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/itheima/dao/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/dao/RoleMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/MybatisConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/itheima/dao/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>myabtis_多表级联查询</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

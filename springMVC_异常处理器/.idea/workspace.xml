@@ -7,18 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="723dda52-033e-489b-ae63-56ef5c774bfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/java/com/itheima/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/java/com/itheima/controller/GroupA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/java/com/itheima/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/java/com/itheima/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/java/com/itheima/domain/Employee2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/webapp/addemployee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/webapp/addemployee2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_文件上传/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_文件上传/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_文件上传/fileupload_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_文件上传/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_文件上传/src/main/java/com/itheima/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_文件上传/src/main/resources/spring_mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_文件上传/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_文件上传/src/main/webapp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_拦截器/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_拦截器/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="120">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -42,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/exception/ExceptionResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
+            <state>
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/exception/ExceptionAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
+            <state relative-caret-position="264">
               <caret line="16" column="19" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -148,6 +147,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,8 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,6 +399,7 @@
       <workItem from="1635737336073" duration="13436000" />
       <workItem from="1635778181230" duration="8000" />
       <workItem from="1635785037310" duration="160000" />
+      <workItem from="1635928071761" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="springmvc异常处理">
       <created>1635755097378</created>
@@ -412,7 +412,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13754000" />
+    <option name="totallyTimeSpent" value="13973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -425,7 +425,7 @@
       <window_info id="Designer" order="4" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info id="Web" order="6" sideWeight="0.50152904" side_tool="true" weight="0.33535764" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4931973" visible="true" weight="0.2672065" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4931973" visible="true" weight="0.27192983" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.2584098" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026991" side_tool="true" weight="0.62538224" />
@@ -444,6 +444,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32874617" />
       <window_info anchor="bottom" id="MyBatis Log" order="17" />
+      <window_info anchor="right" id="RestServices" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.3299595" />
@@ -541,13 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/NullPointerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/NullPointerException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -624,29 +619,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/exception/ExceptionAdvice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/exception/ExceptionResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/exception/ExceptionAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="264">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
