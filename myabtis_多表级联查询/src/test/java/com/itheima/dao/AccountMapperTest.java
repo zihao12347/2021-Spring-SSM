@@ -46,7 +46,7 @@ public class AccountMapperTest {
     @Test
     public void testFindAccountAndUser(){
         AccountMapper mapper = sqlSession.getMapper(AccountMapper.class);
-        List<Account> accounts = mapper.FindAccountAndUser();
-        accounts.forEach(System.out::println);
+        List<Account> accountAndUser = mapper.findAccountAndUser();
+        accountAndUser.forEach(System.out::println);
     }
 }

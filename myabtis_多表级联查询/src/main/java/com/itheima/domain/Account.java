@@ -1,5 +1,7 @@
 package com.itheima.domain;
 
+import java.util.List;
+
 /**
  *账户实体类
  */
@@ -8,16 +10,8 @@ public class Account {
     private Integer uid;
     private Double money;
 
-    //引用实体类
+    //账户下对应的用户信息
     private User user;
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
 
     public Integer getId() {
         return id;
@@ -41,6 +35,14 @@ public class Account {
 
     public void setMoney(Double money) {
         this.money = money;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     @Override

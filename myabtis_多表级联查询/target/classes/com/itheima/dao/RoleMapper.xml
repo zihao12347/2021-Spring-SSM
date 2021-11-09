@@ -4,26 +4,26 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.itheima.dao.RoleMapper">
-    <resultMap id="roleResultMap" type="role">
-        <id column="id" property="id"/>
-        <result column="ROLE_NAME" property="roleName"/>
-        <result column="ROLE_DESC" property="RoleDesc"/>
-        <!--collection标签：用于多对多/一对多的映射关系
-                properties属性：标识引用的属性，该属性为实体类
-                ofType属性：指定引用的实体类类型
-        -->
-        <collection property="users" ofType="user">
-            <id property="id" column="id"/>
-            <result property="username" column="username"/>
-            <result property="birthday" column="birthday"/>
-            <result property="sex" column="sex"/>
-            <result property="address" column="address"/>
-        </collection>
-    </resultMap>
-    <select id="findAll" resultMap="roleResultMap">
+
+    <select id="findAll" resultType="user">
         select * from role
     </select>
-    <select id="findRoleAndUser" resultMap="roleResultMap">
-        select * from user u,role r ,user_role ur where u.id=ur.uid and r.id = ur.rid
+    <resultMap id="RoleAndUser" type="role" autoMapping="true">
+        <id property="id" column="rid"/>
+
+        <!--collection标签：建立多对多/一对多映射
+                property属性：指定当前实体类中的引用属性名
+                ofType属性：指定该引用类类型
+        -->
+        <collection property="users" ofType="user" autoMapping="true">
+            <id column="uid" property="id"/>
+        </collection>
+     </resultMap>
+    <select id="findRoleAndUser" resultMap="RoleAndUser">
+        select
+        r.id rid,r.RoleDesc,r.roleName,
+        u.id uid ,u.username ,u.birthday ,u.sex ,u.address
+        from user u,role r ,user_role ur
+        where u.id =ur.uid and r.id=ur.rid
     </select>
 </mapper>

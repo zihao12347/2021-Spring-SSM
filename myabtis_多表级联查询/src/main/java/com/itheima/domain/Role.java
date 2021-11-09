@@ -8,7 +8,8 @@ public class Role {
     private Integer id;
     private String roleName;
     private String RoleDesc;
-    //引用实体：一个角色可以有多个用户
+
+    //角色对应的用户信息
     private List<User> users;
 
     public List<User> getUsers() {

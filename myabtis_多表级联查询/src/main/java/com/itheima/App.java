@@ -11,11 +11,14 @@ package com.itheima;
  *      一对一/多对一结果封装：
  *          <association></association>标签：用于建立多对一/一对一的映射关系
  *              property属性：指定引用的属性名称
- *              javaType属性：指定引用实体的类类型
+ *              javaType属性：指定引用实体的类类型、
+ *              autoMapping属性：是否完成自动映射
  *       多对多/一对多结果封装：
  *          <collection></collection>标签：用于建立多对多/一对多的映射关系
  *              property属性：指定引用的属性名称
  *              ofType属性；指定引用实体类的类型
+ *              authMapping属性：是否完成自动映射
+ *
  *
  *
  *

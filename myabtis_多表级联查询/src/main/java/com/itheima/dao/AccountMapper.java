@@ -8,8 +8,8 @@ public interface AccountMapper {
     public List<Account> findAll();
 
     /**
-     * 查询所有账户，并且包含对应的用户信息，多对一查询
+     * 查询账户信息，并且包含账户下的用户信息，多对一查询
      * @return
      */
-    public List<Account> FindAccountAndUser();
+    public List<Account> findAccountAndUser();
 }

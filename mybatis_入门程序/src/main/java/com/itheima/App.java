@@ -14,15 +14,16 @@ package com.itheima;
  *          1.包含数据库环境的配置
  *          2.指定mapper映射文件
  *          3.配置实体类别名
+ *          4.引用外部jdbc.properties配置文件
  *
  *      dao接口：
  *          声明各种业务操作方法，
  *
  *      mapper映射配置文件：
  *          mybatis映射配置文件：
- *                  指定dao接口的位置和操作方法的位置
- *                  要执行的sql语句，
- *                  包含了数据与对象之间的映射关系
+ *                   指定dao接口的位置和操作方法的位置
+ *                   要执行的sql语句，
+ *                  数据与对象之间的映射关系
  *
  *
  *      sqlSession构建者对象:
@@ -31,6 +32,7 @@ package com.itheima;
  *              1.在sqlSessionFactory工厂开启sqlSession的时候就指定自动事务管理
  *              2.通过sqlSession.commmit()方法手动提交事务
  *            接口代理
+ *              getMapper()
  *
  *       *获取插入数据自增长的id
  *              <selectKey></selectKey>标签
@@ -41,6 +43,7 @@ package com.itheima;
  *              <if></>标签：用于条件判断
  *              <where></>标签：用于简化where 1=1的条件拼接
  *              <forEach></>标签：用于遍历集合，可以做批量插入操作
+ *              <sql></sql>标签：提取重复的sql，<include></include>引用提取的重复sql
  */
 public class App {
 }

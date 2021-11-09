@@ -46,6 +46,9 @@ public class UserMapperTest {
         System.out.println(user);
     }
 
+    /**
+     *查询当前用户信息，并且包含用户下的账户信息：一对多
+     */
     @Test
     public void testFindUserAndAccount(){
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);

@@ -12,17 +12,8 @@ public class User {
     private Date birthday;
     private String sex;
     private String address;
-
-    //引用实体：一个用户可以拥有多个账户
-    public List<Account> accounts;
-
-    public List<Account> getAccounts() {
-        return accounts;
-    }
-
-    public void setAccounts(List<Account> accounts) {
-        this.accounts = accounts;
-    }
+    //当用户下包含的账户信息
+    private List<Account> accounts;
 
     public Integer getId() {
         return id;
@@ -62,6 +53,14 @@ public class User {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public List<Account> getAccounts() {
+        return accounts;
+    }
+
+    public void setAccounts(List<Account> accounts) {
+        this.accounts = accounts;
     }
 
     @Override

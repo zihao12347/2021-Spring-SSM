@@ -42,7 +42,7 @@ public class RoleMapperTest {
     }
 
     /**
-     *
+     *查询角色信息，并且包含角色对应的用户:多对多查询
      */
     @Test
     public void testFindRoleAndUser(){
