@@ -2,46 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f37e7db0-a612-468d-9d92-ad7cc0d7aa4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/resources/mybatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/test/java/com/itheima/mapper/TestAccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/test/java/com/itheima/mapper/TestRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/test/java/com/itheima/mapper/TestUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/dao/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/dao/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/MybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/com/itheima/dao/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/com/itheima/dao/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/test/java/com/itheima/dao/AccountMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/test/java/com/itheima/dao/RoleMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/test/java/com/itheima/dao/UserMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/dao/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/itheima/dao/AccountMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itheima/dao/AccountMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/itheima/dao/RoleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itheima/dao/RoleMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/itheima/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itheima/dao/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/dao/AccountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/dao/AccountMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/dao/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/dao/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/dao/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/dao/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itheima/dao/AccountMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/itheima/dao/AccountMapperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itheima/dao/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/itheima/dao/UserMapperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/com/itheima/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/com/itheima/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/App.java" afterDir="false" />
     </list>
@@ -69,19 +47,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="1104">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/dao/RoleMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="1084">
               <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/dao/UserMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="1056">
               <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -190,8 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,54 +217,7 @@
               <item name="myabtis_多表级联查询" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myabtis_多表级联查询" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myabtis_多表级联查询" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myabtis_多表级联查询" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myabtis_多表级联查询" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myabtis_多表级联查询" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myabtis_多表级联查询" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myabtis_多表级联查询" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myabtis_多表级联查询" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myabtis_多表级联查询" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myabtis_多表级联查询" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myabtis_多表级联查询" type="b2602c69:ProjectViewProjectNode" />
@@ -337,7 +268,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636449434742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636450223113" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -473,7 +404,8 @@
       <workItem from="1636377898606" duration="449000" />
       <workItem from="1636379752472" duration="4963000" />
       <workItem from="1636388145551" duration="8005000" />
-      <workItem from="1636446782667" duration="2034000" />
+      <workItem from="1636446782667" duration="2867000" />
+      <workItem from="1636470113817" duration="12000" />
     </task>
     <servers />
   </component>
@@ -510,11 +442,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29445000" />
+    <option name="totallyTimeSpent" value="30290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -523,7 +454,7 @@
       <window_info id="Designer" order="4" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info id="Web" order="6" sideWeight="0.50152904" side_tool="true" weight="0.33535764" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4931973" visible="true" weight="0.25303644" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4931973" visible="true" weight="0.30094466" />
       <window_info anchor="bottom" id="MyBatis Log" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.2584098" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
@@ -779,19 +710,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/dao/RoleMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1104">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/dao/UserMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="1056">
           <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -799,10 +727,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/dao/RoleMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="1084">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

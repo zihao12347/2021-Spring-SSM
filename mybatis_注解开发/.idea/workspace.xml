@@ -2,46 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c783fd-a007-46c5-8867-9c2b6c8fbd3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestAccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/dao/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/dao/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/MybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/com/itheima/dao/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/com/itheima/dao/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/test/java/com/itheima/dao/AccountMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/test/java/com/itheima/dao/RoleMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/src/test/java/com/itheima/dao/UserMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/dao/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/dao/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/dao/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/java/com/itheima/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/resources/com/itheima/dao/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/resources/com/itheima/dao/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/resources/com/itheima/dao/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/resources/com/itheima/dao/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/resources/com/itheima/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/test/java/com/itheima/dao/AccountMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/test/java/com/itheima/dao/AccountMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/test/java/com/itheima/dao/RoleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/test/java/com/itheima/dao/RoleMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/src/test/java/com/itheima/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/src/test/java/com/itheima/dao/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/dao/AccountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/dao/AccountMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/dao/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/dao/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/dao/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/dao/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/domain/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/domain/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/classes/com/itheima/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/test-classes/com/itheima/dao/AccountMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/test-classes/com/itheima/dao/AccountMapperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/target/test-classes/com/itheima/dao/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/target/test-classes/com/itheima/dao/UserMapperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/com/itheima/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/com/itheima/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/App.java" afterDir="false" />
     </list>
@@ -56,9 +34,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestUserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="835">
               <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestRoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
+            <state relative-caret-position="336">
               <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
@@ -79,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="864">
               <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/RoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+            <state relative-caret-position="331">
+              <caret line="23" column="54" selection-start-line="23" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/AccountMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="577">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +124,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestRoleMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestAccountMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/itheima/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/itheima/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/App.java" />
       </list>
     </option>
   </component>
@@ -161,7 +148,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
     <option name="y" value="50" />
     <option name="width" value="1390" />
@@ -175,7 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +276,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,6 +415,8 @@
       <workItem from="1636389581912" duration="270000" />
       <workItem from="1636445879839" duration="1063000" />
       <workItem from="1636448247254" duration="1123000" />
+      <workItem from="1636449928869" duration="167000" />
+      <workItem from="1636470121945" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis技术">
       <created>1636359142857</created>
@@ -472,10 +461,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17702000" />
+    <option name="totallyTimeSpent" value="18039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -484,7 +474,7 @@
       <window_info id="Designer" order="4" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info id="Web" order="6" sideWeight="0.50152904" side_tool="true" weight="0.33535764" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.4931973" weight="0.35897437" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4931973" visible="true" weight="0.36504725" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.2584098" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026991" side_tool="true" weight="0.62538224" />
@@ -606,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -644,27 +627,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
+        <state relative-caret-position="336">
           <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+        <state relative-caret-position="864">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+        <state relative-caret-position="835">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -673,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/RoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+        <state relative-caret-position="331">
+          <caret line="23" column="54" selection-start-line="23" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -683,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/AccountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="577">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mybatis的(DTD)文档类型约束，进行相关标签的提示和约束-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.UserMapper">
+
+    <select id="findAll" resultType="user">
+        select * from user
+    </select>
+
+    <select id="findById" resultType="user" parameterType="int">
+        select * from user where id=${id}
+    </select>
+
+    <resultMap id="UserAndAccount" type="user" autoMapping="true">
+        <id property="id" column="id"/>
+        <!--collection标签：建立一对多/多对多的映射关系
+                property属性：指定当前实体类中，包含的引用实体，属性名称
+                ofType属性：指定引用实体类类型，
+                select属性：指定调用哪个接口中哪个方法，
+                column属性：根据当前表中哪个字段，查询关联表数据
+            -->
+        <collection property="accounts" ofType="account" autoMapping="true"
+                    select="com.itheima.dao.AccountMapper.findByUid"
+                    column="id"
+
+        >
+        </collection>
+    </resultMap>
+    <!--查询用户信息，并且包含用户对应账户信息，一对多查询-->
+    <select id="findUserAndAccount" resultMap="UserAndAccount">
+        select * from user
+    </select>
+
+
+    <!--根据role的id查询user信息-->
+    <select id="findByRid" resultType="user" parameterType="int">
+        select * from user u,user_role ur where u.id= ur.uid and ur.rid=#{rid}
+    </select>
+
+</mapper>

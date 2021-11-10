@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mybatis的(DTD)文档类型约束，进行相关标签的提示和约束-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.AccountMapper">
+    <select id="findAll" resultType="account">
+        select * from account
+    </select>
+   <!--查询账户信息，并且包含账户下的用户信息，多对一查询-->
+    <resultMap id="AccountAndUser" type="account" autoMapping="true">
+        <id property="id" column="aid"/>
+        <!--association标签：建立多对一/一对一查询的映射
+                property属性：指定当前实体类含的引用实体属性名
+                javaType属性：指定引用实体类型
+                autoMapping属性：是否完成自动映射
+        -->
+        <association property="user" javaType="user" autoMapping="true">
+            <id property="id" column="uid"/>
+        </association>
+    </resultMap>
+    <!--多对一查询-->
+    <select id="findAccountAndUser" resultMap="AccountAndUser">
+        select a.id aid,a.uid,a.money,u.id uid,u.username,u.birthday,u.sex,u.address from account a ,user u where a.uid=u.id
+    </select>
+
+    <!--根据用户id查询账户信息-->
+    <select id="findByUid" resultType="account" parameterType="int">
+        select * from account where uid=#{uid}
+    </select>
+</mapper>
