@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df2651dc-79b6-4ca0-b992-1baf7dfafa8c" name="Default" comment="aop入门">
-      <change afterPath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/src/main/java/com/itheima/aop/TxAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/mybatis_分页插件.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/resources/MybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/test/java/com/itheima/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/resources/MybatisConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/test/java/com/itheima/dao/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/src/main/resources/mybatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/src/main/resources/mybatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/domain/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/domain/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/com/itheima/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/mybatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/target/classes/mybatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_注解开发/target/test-classes/com/itheima/mapper/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_注解开发/target/test-classes/com/itheima/mapper/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_缓存/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_缓存/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_缓存/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/java/com/itheima/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
+            <state relative-caret-position="360">
               <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
@@ -26,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="73">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -104,10 +146,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="421" />
-    <option name="y" value="120" />
-    <option name="width" value="1389" />
-    <option name="height" value="790" />
+    <option name="x" value="-5" />
+    <option name="y" value="-5" />
+    <option name="width" value="1375" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,8 +246,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,6 +338,7 @@
       <workItem from="1634890071124" duration="15385000" />
       <workItem from="1635064181413" duration="337000" />
       <workItem from="1635083106086" duration="290000" />
+      <workItem from="1636618556877" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="aop入门">
       <created>1634890137824</created>
@@ -315,13 +358,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16012000" />
+    <option name="totallyTimeSpent" value="16028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31039137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31039137" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -344,6 +386,7 @@
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32874617" />
+      <window_info anchor="right" id="RestServices" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Maven" order="1" weight="0.3299595" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
@@ -414,16 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/Throwable.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
+        <state relative-caret-position="360">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
@@ -456,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="73">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>

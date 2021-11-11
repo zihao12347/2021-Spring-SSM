@@ -1,12 +1,13 @@
 package com.itheima.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
 /**
  * 用户实体类
  */
-public class User {
+public class User implements Serializable {
     private Integer id;
     private String username;
     private Date birthday;

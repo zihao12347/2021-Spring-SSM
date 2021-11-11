@@ -1,9 +1,11 @@
 package com.itheima.domain;
 
+import java.io.Serializable;
+
 /**
  *账户实体类
  */
-public class Account {
+public class Account implements Serializable {
     private Integer id;
     private Integer uid;
     private Double money;

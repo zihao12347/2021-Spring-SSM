@@ -6,7 +6,7 @@ import org.apache.ibatis.mapping.FetchType;
 
 import java.util.List;
 
-public interface UserMapper {
+public interface UserMapper  {
     @Select("select * from user")
     public List<User> findAll();
     @Insert("insert into user (username,birthday,sex,address)values(#{username},#{birthday},#{sex},#{address})")

@@ -1,8 +1,9 @@
 package com.itheima.domain;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Role {
+public class Role implements Serializable {
     private Integer id;
     private String roleName;
     private String RoleDesc;

@@ -5,6 +5,10 @@
 <configuration>
     <!--引入外部配置文件-->
     <properties resource="jdbc.properties"></properties>
+    <!--开启二级缓存-->
+    <settings>
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
     <!--配置实体类的别名-->
     <typeHandlers>
         <package name="com.itheima.domain"></package>

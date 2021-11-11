@@ -1,14 +1,12 @@
 package com.itheima.mapper;
 
 import com.itheima.domain.Role;
-import org.apache.ibatis.annotations.Many;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.mapping.FetchType;
 
 import java.util.List;
-
+//@CacheNamespace注解:开启二级缓存
+@CacheNamespace
 public interface RoleMapper {
     /**
      * 查询角色信息，并且包含角色对应所有用户信息；多对多查询

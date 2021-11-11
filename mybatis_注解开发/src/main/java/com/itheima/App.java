@@ -15,6 +15,8 @@ package com.itheima;
  *      @One：实现一对一结果的封装
  *      @Many：实现多对多/一对多结果的封装
  *
+ *      @CachenNameSpace注解：开启二级缓存
+ *
  *      @Param注解：当mapper方法中的参数为多个时，需要使用@Param注解，给这些参数命名
  *
  *      *动态sql的拼装：
