@@ -3,7 +3,7 @@ package com;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 
 /**
- * 一：组件扫描加载过滤器：
+     * 一：组件扫描加载过滤器：
  *      在实际开发中，需要根据需求来加载必要的bean，排除指定的bean
  *      解决方案：@ComponentScan注解，设置组件扫描加载过滤器
  *

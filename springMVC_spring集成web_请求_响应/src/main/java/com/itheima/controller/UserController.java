@@ -31,10 +31,11 @@ import javax.servlet.http.HttpSession;
  *              请求每一个参数的值都是String类型的，是Springmvc帮我们自动转换成对应的int/double/boolean等类型的数据，
  *              有时也存在类型转换问题：string-data  springmvc默认支持转换的2021/10/27,如果日期参数的值为2021-10-27,
  *              就会出现类型转换的错误，此时可以自定义类型转换器；
- *         自定义请求参数类型转换器：
+ *         自定义全局请求参数类型转换器：
  *              1.编写转换器类，继承Convert<R,T>接口
  *              2.在spring-mvc.xml文件中配置自定义转换器:ConvertServiceFactoryBean
  *              3.在<mvc:annotation-driven>开启springmvc注解支持的标签中；中指定conversion-service属性的值
+ *            *@DateTimeFormat()注解：实现日期类型的参数转化
  *
  *       4.使用原生的ServletAPI作为控制器方法的参数，
  *              1.HttpServletRequest

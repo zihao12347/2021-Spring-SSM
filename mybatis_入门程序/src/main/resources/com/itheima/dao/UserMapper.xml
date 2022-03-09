@@ -45,7 +45,7 @@
     <insert id="saveBatch" parameterType="list">
         insert into user (userName,password,gender,birthday) values
         <foreach collection="list" separator="," item="user">
-            (#{user.userName}, #{user. }, #{user.gender}, #{user.birthday})
+            (#{user.userName}, #{user.userName}, #{user.gender}, #{user.birthday})
         </foreach>
     </insert>
 </mapper>

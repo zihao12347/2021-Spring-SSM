@@ -35,8 +35,8 @@ package com.itheima;
  *
  *            @Size：验证属性的长度是否在指定的范围内
  *
- *            @Past：验证Date类型或Calendar类型的属性是否在指定时间之前
- *            @Future：验证Date类型或Calendar类型的属性是否在指定之间之后
+ *            @Past：验证Date类型或Calendar类型的属性是否在当前时间之前
+ *            @Future：验证Date类型或Calendar类型的属性是否在当前之间之后
  *
  *            @Pattern：验证String类型属性是否符合正则表达式规则
  *

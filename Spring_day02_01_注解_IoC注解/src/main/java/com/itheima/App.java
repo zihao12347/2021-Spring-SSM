@@ -47,7 +47,7 @@ import javax.sql.DataSource;
  *          2.@ComponentScan注解：指定spring容器在初始化时需要扫描的包
  *
  *          3.@Bean注解：该注解只能用于在方法上，
- *                  表名在该方法上创建一个对象，并且放入spring容器中
+ *                  表明该方法上的返回值，会注入到spring容器中
  *
  *         4.@propertiesResource("classpath:")注解导入外部配置文件，
  *

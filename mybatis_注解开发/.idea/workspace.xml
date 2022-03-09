@@ -1,192 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c783fd-a007-46c5-8867-9c2b6c8fbd3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/mybatis_分页插件.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/java/com/itheima/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/resources/MybatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/src/test/java/com/itheima/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_day03_01_AOP入门案例/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_day04_06_RedisTemplate/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_缓存/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day01_05_综合案例spring整合mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day01_05_综合案例spring整合mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_01_AOP入门案例/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day03_01_AOP入门案例/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_05_AOP底层原理/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day03_05_AOP底层原理/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day03_05_AOP底层原理/src/main/java/com/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day03_05_AOP底层原理/src/main/java/com/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_04_声明式事务_注解驱动/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_06_RedisTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_06_RedisTemplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_06_RedisTemplate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_06_RedisTemplate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day04_06_RedisTemplate/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_06_RedisTemplate/src/main/java/com/itheima/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myabtis_多表级联查询/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myabtis_多表级联查询/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/com/itheima/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_入门程序/src/main/resources/com/itheima/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_分页插件/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_分页插件/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_分页插件/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_分页插件/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_分页插件/src/main/java/com/itheima/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_分页插件/src/main/java/com/itheima/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_延迟加载/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatisConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/mapper/RoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatisConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itheima/mapper/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/itheima/mapper/TestUserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis_缓存/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_缓存/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_缓存/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_缓存/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_缓存/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_缓存/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_Bean属性校验/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_Bean属性校验/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_Bean属性校验/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_SSM整合/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_SSM整合/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_SSM整合/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_SSM整合/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/src/main/java/com/itheima/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/src/main/java/com/itheima/convert/StringToDateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/src/main/java/com/itheima/convert/StringToDateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_异常处理器/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_异常处理器/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC_异常处理器/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_异常处理器/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestUserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="46" column="19" selection-start-line="9" selection-start-column="2" selection-end-line="46" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestRoleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="44" />
-              <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/RoleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/mapper/TestAccountMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -226,11 +97,6 @@
         <option name="userSettingsFile" value="D:\develop\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
@@ -241,6 +107,7 @@
     <option name="width" value="1390" />
     <option name="height" value="790" />
   </component>
+  <component name="ProjectId" id="211oOj2rB864aEjfYENTEX0va6b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -366,13 +233,19 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1636613689733" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -382,18 +255,6 @@
       <recent name="D:\develop\Spring-SSM\mybatis_注解开发\src\main\java\com\itheima\domain" />
       <recent name="D:\develop\Spring-SSM\mybatis_注解开发\src\main\resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.TestUserMapper.testFindUserAndAccount">
     <configuration name="TestAccountMapper.testFindUserAndAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -486,6 +347,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -506,6 +368,12 @@
       <workItem from="1636470121945" duration="170000" />
       <workItem from="1636535252208" duration="92000" />
       <workItem from="1636613152979" duration="535000" />
+      <workItem from="1637117926140" duration="22000" />
+      <workItem from="1637130400673" duration="35000" />
+      <workItem from="1637130474213" duration="24000" />
+      <workItem from="1639466228176" duration="4000" />
+      <workItem from="1639466295904" duration="42000" />
+      <workItem from="1639467286273" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis技术">
       <created>1636359142857</created>
@@ -633,7 +501,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mybatis技术" />

@@ -1,195 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9073d25e-d201-46ff-aec2-ffebccb56e82" name="Default" comment="spring声明式的事务管理：基于注解实现">
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/controller/constant/ConstantMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/controller/interceptor/ProjectAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/controller/results/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/exception/SystemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/service/UserServivce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/resources/com/itheima/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/resources/spring_mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/test/java/com/itheima/service/UserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/test/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/test/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/springMVC_SSM整合_注解实现.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/JDBCConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/ServletContainerInitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/config/SpringMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/controller/constant/ConstantMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/controller/interceptor/ProjectAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/controller/results/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/exception/SystemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/service/UserServivce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC_SSM整合_注解实现/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/config/JDBCConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/dao/BookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/dao/impl/BookDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_01_注解_IoC注解/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/config/JDBCConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/config/MybatisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_02_注解整合mybatis/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/BookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/EquipmentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/AccountDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/BookDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/EquipmentDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/EquipmentDaoImplFactoryBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/SpringConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/filter/MyTypeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/postprocessor/MyBeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/registrar/CustomeImportBeanDefinitionRegistrar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/registrar/MyImportBeanDefinitionRegistrar$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/registrar/MyImportBeanDefinitionRegistrar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/selector/CustomerImportSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day02_03_bean加载过滤/target/classes/config/selector/MyImportSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/aop/AOPAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/aop/AOPAdviceTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day03_03_AOP注解/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/aop/TxAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_01_编程式事务控制/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_02_声明式事务XML_TX/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_day04_03_声明式事务_注解/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day01_05_综合案例spring整合mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_day01_05_综合案例spring整合mybatis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/config/JDBCConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/config/MyBatisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/config/SpringConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/dao/AccountDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/domain/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/service/impl/AccountServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_SSM整合/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_SSM整合/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_SSM整合/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/controller/ReqAnnotationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/controller/RespController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/convert/StringToDateConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/listener/ContextLoadListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/listener/WebApplicationContextUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/pojo/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_spring集成web_请求_响应/target/classes/com/itheima/web/UserServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_异常处理器/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_异常处理器/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_异步调用/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_异步调用/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC_注解驱动/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC_注解驱动/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_分页插件/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_分页插件/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/config/MyBatisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="27" selection-start-line="10" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/config/SpringConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -223,13 +46,6 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -252,6 +68,7 @@
     <option name="width" value="1390" />
     <option name="height" value="790" />
   </component>
+  <component name="ProjectId" id="20uf2L6gtBb6AN1S1aeERVl5Us2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -408,28 +225,21 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1635149650699" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\Spring_day04_04_声明式事务_注解驱动\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -469,6 +279,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -491,6 +302,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -507,6 +319,7 @@
       <workItem from="1635592452922" duration="599000" />
       <workItem from="1635994579189" duration="26000" />
       <workItem from="1635994749334" duration="773000" />
+      <workItem from="1636899186658" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="spring声明式的事务管理：基于注解实现">
       <created>1635148111442</created>
@@ -608,7 +421,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring声明式的事务管理：基于注解实现" />

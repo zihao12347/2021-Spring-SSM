@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springMVC_spring集成web_请求_响应" />
         <module name="spring-web" />
         <module name="springmvc-base" />
       </profile>

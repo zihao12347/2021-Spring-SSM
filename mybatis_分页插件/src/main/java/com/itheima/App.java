@@ -5,10 +5,26 @@ package com.itheima;
  *    使用步骤：
  *      1.引入pagehelper分页插件:
  *              hegahelper依赖
- *      2.在mybatis配置文件在配置:
+ *      2.1在mybatis配置文件在配置:
  *              <plugins>
  *                  <plugin interceptor="om.github.pagehelper"></plugin>
  *              </plugins>
+ *      2.2当spring整合mybatis时，
+ *              在sqlsessionfactorybean中配置分页查询拦截器
+ *        <property name="plugins">
+ *             <array>
+ *                 <!--配置mybatis的分页插件-->
+ *                 <bean class="com.github.pagehelper.PageInterceptor">
+ *                     <property name="properties">
+ *                         <props>
+ *                             <prop key="helperDialect">mysql</prop>
+ *                             <prop key="reasonable">true</prop>
+ *                         </props>
+ *                     </property>
+ *                 </bean>
+ *             </array>
+ *         </property>
+ *
  *      3.使用hegehelper的API进行分页查询
  *          1.PageHelper分页助手功能类：
  *                startPage(currentPage ,size)设置分页查询参数，currentPage：当前页码，size 每页显示的数量

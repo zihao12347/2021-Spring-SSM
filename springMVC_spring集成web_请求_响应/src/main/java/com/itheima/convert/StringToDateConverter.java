@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * 自定义类型转换器：实现Convert接口
+ * 自定义权全局类型转换器：实现Convert接口
  *      将String类型的请求数据转换器Date类型
  */
 public class StringToDateConverter implements Converter<String, Date> {
